@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="contenidor-pelicula">
+            <label>Trïi una pel·licula</label>
+            <select id="pelicula">
+                <option value="10">Geronimo Stilton: El ratoncito perdido (80€)</option>
+                <option value="">Geronimo Stilton: La Matrix ataca (90€)</option>
+                <option value="">Geronimo Stilton: El gato contraataca (100€)</option>
+                <option value="">Geronimo Stilton: Endgame (110€)</option>
+            </select>
+        </div>
+        <ul class="llegenda">
+            <li>
+                <div class="seient"></div>
+                <small>N/A</small>
+            </li>
+            <li>
+                <div class="seient seleccionat"></div>
+                <small>Seleccionat</small>
+            </li>
+            <li>
+                <div class="seient ocupat"></div>
+                <small>Ocupat</small>
+            </li>
+        </ul>
+        <div class="contenidor">
+            <div class="pantalla"></div>
+            <div class="fila">
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+            </div>
+            <div class="fila">
+                <div class="seient"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+            </div>
+            <div class="fila">
+                <div class="seient ocupat"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+            </div>
+            <div class="fila">
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient ocupat"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+            </div>
+            <div class="fila">
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+            </div>
+            <div class="fila">
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+                <div class="seient"></div>
+            </div>
+        </div>
+        <p class="text">Ha seleccionat <span id="contador">0</span> seients per un preu de <span id="total">0</span>€</p>
+        <script src="cine.js"></script>
+    </body>
+</html>
